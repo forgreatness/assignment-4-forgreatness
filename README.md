@@ -1,4 +1,4 @@
-# Assignment 3
+# Assignment 4
 
 **Assignment due at 11:59pm on Monday 6/3/2019**
 
@@ -69,7 +69,7 @@ Then, you should add a new `GET /media/photos/{id}-{size}.jpg` API endpoint to a
 
 ## Submission
 
-We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/osu-cs493-sp19/assignment-3-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
+We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/osu-cs493-sp19/assignment-4-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
 
 ## Grading criteria
 
