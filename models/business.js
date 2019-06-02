@@ -6,7 +6,7 @@ const { ObjectId } = require('mongodb');
 
 const { getDBReference } = require('../lib/mongo');
 const { extractValidFields } = require('../lib/validation');
-const { getPhotosByBusinessId } = require('./photo');
+const { getBusinessPhotosInfoById } = require('./photo');
 
 /*
  * Schema describing required/optional fields of a business object.
@@ -104,7 +104,7 @@ async function getBusinessDetailsById(id) {
    */
   const business = await getBusinessById(id);
   if (business) {
-    business.photos = await getPhotosByBusinessId(id);
+    business.photos = await getBusinessPhotosInfoById(id);
   }
   return business;
 }
